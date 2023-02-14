@@ -112,3 +112,13 @@ body{
 	color: white;
 	padding-bottom: 1rem;
 }
+@media (max-width:500px){
+
+    #about img{
+		align-items: left;
+		border-radius: 50%;
+		width: 200px;
+		height: 200px;
+
+	}
+}
