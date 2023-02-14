@@ -1,0 +1,59 @@
+h5{
+	font-size: 1rem;
+}
+h1{
+	color:  rgb(92, 232, 199);
+	font-size: 2rem;
+}
+body{
+	background-color: rgb(18,23,31);
+	color: rgb(122, 122, 122);
+	font-family:  'Roboto Mono', serif;
+}
+
+
+.navbar-brand{
+    font-weight: bold;
+     font-size: 2rem;
+}
+.nav-item{
+    padding: 10px;
+}
+.nav-link{
+    font-size: 1rem;
+}
+
+
+.container-fluid{
+	padding: 2.5rem 4rem 0rem;
+}
+
+/* cards */
+.card{
+	align-items: center; 
+	border-radius: 20px;
+	 border: none;
+}
+.card-header{
+	font-size: 0.9rem;
+}
+.card-body{
+	font-size: 0.8rem;
+}
+
+.submit{
+	background-image: linear-gradient(90deg,rgb(36, 32, 94),rgb(92, 232, 199));
+	border:none;
+	text-align: center;
+  	text-decoration: none;
+	color: white;
+	padding: 3.5%;
+	margin-top: 2rem;
+
+}
+
+#footer{
+	background-color: #000000;;
+	color: white;
+	padding-bottom: 1rem;
+}

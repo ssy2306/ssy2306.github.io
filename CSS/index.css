@@ -1,0 +1,114 @@
+h5{
+	font-size: 1rem;
+}
+h1{
+	color:  rgb(132,144,255);
+	font-size: 2rem;
+	font-weight: bold;
+}
+h4{
+	color: white;
+}
+body{
+	background-color:rgb(227,229,241);
+	color: rgb(40, 40, 40);
+	font-family:  'Poppins';
+	font-weight:300;
+}
+
+
+/* h1{
+	color:  rgb(92, 232, 199);
+	font-size: 2rem;
+}
+body{
+	background-color: rgb(18,23,31);
+	color: rgb(122, 122, 122);
+	font-family:  'Roboto Mono', serif;
+} */
+/* old body body{
+	background-color: rgb(18,23,31);
+	background-repeat: no-repeat;
+	color: rgb(122, 122, 122);
+	background-size: cover;	cover entire screen 
+	background-position:center ;
+	font-family:  'Roboto Mono', serif;
+	background-position: center;
+	margin: 0px 0px;
+} */
+/* Navigation */
+/* navbar */
+
+.navbar-brand{
+    font-weight: bold;
+     font-size: 2rem;
+}
+.nav-item{
+    padding: 10px;
+}
+.nav-link{
+    font-size: 1rem;
+}
+
+/* INTRO */
+.container-fluid{
+	padding: 2.5rem 4rem 0rem;
+}
+
+.discovermore{
+	background-image: linear-gradient(90deg,rgb(132,144,255),rgb(98,189,252));
+	border-radius: 10px	;
+	border:none;
+	text-align: center;
+  	text-decoration: none;
+	color: white;
+	padding: 2%;
+	margin-top: 1.8rem;
+
+}
+.discovermore-s{
+	background-image: linear-gradient(90deg,rgb(132,144,255),rgb(98,189,252));
+	border-radius: 10px	;
+	border:none;
+	text-align: center;
+  	text-decoration: none;
+	color: white;
+	padding: 2%;
+	margin-top: 1rem;
+	transition: 0.8s;
+	border: 0px;
+}
+
+.discovermore-s:hover{
+	box-shadow: 3px 3px 10px  rgb(209, 209, 209);
+
+}
+.card{
+	border: 0px;
+}
+
+/* cards */
+#services .card{
+	transition: 0.3s;
+	border: 0px;
+}
+#services .card:hover{
+	box-shadow: 5px 5px 12px rgb(147, 147, 147);
+
+}
+.card-header{
+	font-size: 0.9rem;
+	border: 0px;
+}
+.card-body{
+	font-size: 0.8rem;
+}
+#services{
+	padding:2rem;
+}
+
+#footer{
+	background-color: rgb(35, 38, 72);;
+	color: white;
+	padding-bottom: 1rem;
+}
