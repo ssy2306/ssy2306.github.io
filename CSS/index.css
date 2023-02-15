@@ -123,12 +123,18 @@ body{
 
 	}
 }
-
 @media (max-width:1000px){
 	#services .card{
 		margin: 2%;
 	}
 	#services{
 		padding: 1px;
+	}
+	#intro .custom img{
+		display: none;
+	}
+
+	#contact{
+		padding: 5%;
 	}
 }
