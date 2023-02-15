@@ -112,6 +112,7 @@ body{
 	color: white;
 	padding-bottom: 1rem;
 }
+
 @media (max-width:500px){
 
     #about img{
@@ -122,3 +123,4 @@ body{
 
 	}
 }
+
