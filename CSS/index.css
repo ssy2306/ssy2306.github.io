@@ -104,7 +104,7 @@ body{
 	font-size: 0.8rem;
 }
 #services{
-	padding:2rem;
+	padding:1rem;
 }
 
 #footer{
@@ -127,5 +127,8 @@ body{
 @media (max-width:1000px){
 	#services .card{
 		margin: 2%;
+	}
+	#services{
+		padding: 1px;
 	}
 }
