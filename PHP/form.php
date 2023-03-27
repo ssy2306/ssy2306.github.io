@@ -1,7 +1,7 @@
 <?php
 //gettig the data from the form
-$email=POST['Email']
-$name=POST['Name']
+$email=$_POST['Email']
+$name=$_POST['Name']
 $subject = $_POST["Subject"];
 $message = $_POST["Message"];
 $query = $_POST["Query"];
