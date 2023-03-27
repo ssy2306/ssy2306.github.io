@@ -10,7 +10,7 @@ $txt ="Name = ".$name."\r \n Email= ". $email . "\r \c Subject= ".$subject . "\r
 $headers = "From : https://ssy2306.github.io/HTML/index/homepage.html";
 if($email!=NULL){
     mail($to, $subject, $txt, $headers);
+    header("Location: thankyou.html");
 }
 //redirected
-header("Location: thankyou.html");
 ?>
