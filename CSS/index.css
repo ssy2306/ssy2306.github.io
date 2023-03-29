@@ -15,8 +15,6 @@ body{
 	font-family:  'Poppins';
 	font-weight:300;
 }
-
-
 /* h1{
 	color:  rgb(92, 232, 199);
 	font-size: 2rem;
@@ -86,6 +84,18 @@ body{
 .card{
 	border: 0px;
 }
+
+/* Skills */
+#spanned{
+	background: white;
+						padding-right: 1rem;
+						padding-left: 1rem;
+						padding-top: 3px;
+						padding-bottom: 3px;
+						border-radius: 10px;
+						color: grey;
+}
+
 
 /* cards */
 #services .card{
