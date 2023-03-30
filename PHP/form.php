@@ -9,7 +9,7 @@ $query = test_input($_POST["Query"]);
 $body=$message;
 $to='2028133@gmail.com';
 $txt ="Name = $name  \n Email=  $email  \n Subject= $subject  \n Message=  $message \n Querry= $query";
-$headers = "From : https://ssy2306.github.io/HTML/index/homepage.html";
+$headers = "From :https://ssy2306.github.io/HTML/index/homepage.html";
 if($email!=NULL){
    if(mail($to, $subject, $body)){
    echo "Thankyou";
