@@ -72,11 +72,10 @@ body {
 }
 /* Education */
 .education-card{
-	background: Grey;
 	padding: 1px;
 	margin: 1rem;
 	border-radius: 10px;
-	
+	background:linear-gradient(98.74deg, rgba(132, 144, 255, 0.2) 2.48%, rgba(98, 198, 252, 0.13) 100.42%);;
   }
   
   #education-card-in {
