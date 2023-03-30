@@ -102,13 +102,13 @@ body{
 	padding-right: 1rem;
 	padding-left: 1rem;
 	padding-top: 3px;
-	padding-bottom: 3px;
+	padding-bottom: 6px;
 	border-radius: 10px;
 	color: grey;
-	animation-name: ;
 }
 #spanned:hover{
 	background-color: rgb(132, 144, 255);
+	color: white;
 	transition: 0.8s;
 
 }
@@ -137,7 +137,10 @@ body{
 	padding: 1rem;
 }
 /* Contact */
-
+.contactleft a{
+	text-decoration: none;
+	color: rgb(132, 144, 255);
+}
 #footer {
 	background-color: rgb(35, 38, 72);
 	;
