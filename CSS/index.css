@@ -70,6 +70,20 @@ body {
 .card {
 	border: 0px;
 }
+/* Education */
+.education-card{
+	background: Grey;
+	padding: 1px;
+	margin: 1rem;
+	border-radius: 10px;
+	
+  }
+  
+  #education-card-in {
+	  border-radius: 10px;
+	margin-right: 3rem;
+	  color: white;
+  }
 
 /* Skills */
 .inskills{
@@ -121,7 +135,6 @@ body {
 }
 #footer {
 	background-color: rgb(35, 38, 72);
-	;
 	color: white;
 	padding-bottom: 1rem;
 }
