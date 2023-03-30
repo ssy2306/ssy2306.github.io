@@ -1,20 +1,24 @@
-h5{
+h5 {
 	font-size: 1rem;
 }
-h1{
-	color:  rgb(132,144,255);
+
+h1 {
+	color: rgb(132, 144, 255);
 	font-size: 2rem;
 	font-weight: bold;
 }
-h4{
+
+h4 {
 	color: white;
 }
-body{
-	background-color:rgb(227,229,241);
+
+body {
+	background-color: rgb(227, 229, 241);
 	color: rgb(40, 40, 40);
-	font-family:  'Poppins';
-	font-weight:300;
+	font-family: 'Poppins';
+	font-weight: 300;
 }
+
 /* h1{
 	color:  rgb(92, 232, 199);
 	font-size: 2rem;
@@ -37,39 +41,42 @@ body{
 /* Navigation */
 /* navbar */
 
-.navbar-brand{
-    font-weight: bold;
-     font-size: 2rem;
+.navbar-brand {
+	font-weight: bold;
+	font-size: 2rem;
 }
-.nav-item{
-    padding: 10px;
+
+.nav-item {
+	padding: 10px;
 }
-.nav-link{
-    font-size: 1rem;
+
+.nav-link {
+	font-size: 1rem;
 }
 
 /* INTRO */
-.container-fluid{
+.container-fluid {
 	padding: 2.5rem 4rem 0rem;
 }
 
-.discovermore{
-	background-image: linear-gradient(90deg,rgb(132,144,255),rgb(98,189,252));
-	border-radius: 10px	;
-	border:none;
+.discovermore {
+	background-image: linear-gradient(90deg, rgb(132, 144, 255), rgb(98, 189, 252));
+	border-radius: 10px;
+	border: none;
 	text-align: center;
-  	text-decoration: none;
+	text-decoration: none;
 	color: white;
 	padding: 2%;
 	margin-top: 1.8rem;
 
 }
-.discovermore-s{
-	background-image: linear-gradient(90deg,rgb(132,144,255),rgb(98,189,252));
-	border-radius: 10px	;
-	border:none;
+
+.discovermore-s {
+	background-image: linear-gradient(90deg, rgb(132, 144, 255), rgb(98, 189, 252));
+	border-radius: 10px;
+	border: none;
 	text-align: center;
-  	text-decoration: none;
+	text-decoration: none;
 	color: white;
 	padding: 2%;
 	margin-top: 1rem;
@@ -77,55 +84,67 @@ body{
 	border: 0px;
 }
 
-.discovermore-s:hover{
-	box-shadow: 3px 3px 10px  rgb(209, 209, 209);
+.discovermore-s:hover {
+	box-shadow: 3px 3px 10px rgb(209, 209, 209);
 
 }
-.card{
+
+.card {
 	border: 0px;
 }
 
 /* Skills */
-#spanned{
+.inskills{
+	padding-bottom: 1rem;
+}
+#spanned {
 	background: white;
-						padding-right: 1rem;
-						padding-left: 1rem;
-						padding-top: 3px;
-						padding-bottom: 3px;
-						border-radius: 10px;
-						color: grey;
+	padding-right: 1rem;
+	padding-left: 1rem;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	border-radius: 10px;
+	color: grey;
+	animation-name: ;
+}
+#spanned:hover{
+	background-color: blue;
 }
 
-
 /* cards */
-#services .card{
+#services .card {
 	transition: 0.3s;
 	border: 0px;
 }
-#services .card:hover{
+
+#services .card:hover {
 	box-shadow: 5px 5px 12px rgb(147, 147, 147);
 
 }
-.card-header{
+
+.card-header {
 	font-size: 0.9rem;
 	border: 0px;
 }
-.card-body{
+
+.card-body {
 	font-size: 0.8rem;
 }
-#services{
-	padding:1rem;
+
+#services {
+	padding: 1rem;
 }
 
-#footer{
-	background-color: rgb(35, 38, 72);;
+#footer {
+	background-color: rgb(35, 38, 72);
+	;
 	color: white;
 	padding-bottom: 1rem;
 }
 
-@media (max-width:500px){
+@media (max-width:500px) {
 
-    #about img{
+	#about img {
 		align-items: center;
 		border-radius: 50%;
 		width: 200px;
@@ -133,18 +152,21 @@ body{
 
 	}
 }
-@media (max-width:1000px){
-	#services .card{
+
+@media (max-width:1000px) {
+	#services .card {
 		margin: 2%;
 	}
-	#services{
+
+	#services {
 		padding: 1px;
 	}
-	#intro .custom img{
+
+	#intro .custom img {
 		display: none;
 	}
 
-	#contact{
+	#contact {
 		padding: 5%;
 	}
 }
