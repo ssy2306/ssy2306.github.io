@@ -108,7 +108,9 @@ body{
 	animation-name: ;
 }
 #spanned:hover{
-	background-color: blue;
+	background-color: rgb(132, 144, 255);
+	transition: 0.8s;
+
 }
 
 /* cards */
@@ -134,6 +136,7 @@ body{
 #services {
 	padding: 1rem;
 }
+/* Contact */
 
 #footer {
 	background-color: rgb(35, 38, 72);
