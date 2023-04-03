@@ -153,7 +153,7 @@ body {
 
 /* footer */
 #footer {
-	background-color: rgb(35, 38, 72);
+	background: rgb(35, 38, 72);
 	color: white;
 	padding-bottom: 1rem;
 }
