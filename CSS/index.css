@@ -17,6 +17,7 @@ body {
 	color: rgb(40, 40, 40);
 	font-family: 'Poppins';
 	font-weight: 300;
+	cursor:none;
 }
 /* About */
 #about{
@@ -100,7 +101,7 @@ body {
 
 /* Skills */
 .inskills{
-	padding-bottom: 1rem;
+	padding: 1rem;
 }
 #spanned {
 	background: white;
@@ -110,6 +111,8 @@ body {
 	padding-bottom: 6px;
 	border-radius: 10px;
 	color: grey;
+	display:flexbox;
+	margin-right: 0.5rem;
 }
 #spanned:hover{
 	background-color: rgb(132, 144, 255);
@@ -154,6 +157,20 @@ body {
 	color: white;
 	padding-bottom: 1rem;
 }
+
+/* cursor animation css */
+#cursor{
+	height: 30px;
+	width: 30px;
+	background: rgb(132, 144, 255);
+	border-radius: 50%;
+	position: absolute;
+	display: none;
+	z-index: -2;
+
+}
+
+/* ======================= */
 /*------------------------------  */
 @media (max-width:500px) {
 
