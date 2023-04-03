@@ -20,11 +20,19 @@ body {
 }
 /* About */
 #about{
-	background-color:linear-gradient(98.74deg, rgba(132, 144, 255, 0.2) 2.48%, rgba(98, 198, 252, 0.13) 100.42%);
+	background:linear-gradient(98.74deg, rgba(105, 119, 250, 0.2) 2.48%, rgba(67, 189, 255, 0.13) 100.42%);
 	padding-bottom: 1rem;
+}
+#about a{
+	text-decoration: none;
+	color: white;
 }
 
 /* --------------- */
+#title{
+	color: white;
+}
+
 .navbar-brand {
 	font-weight: bold;
 	font-size: 2rem;
@@ -138,12 +146,15 @@ body {
 	text-decoration: none;
 	color: rgb(132, 144, 255);
 }
+
+
+/* footer */
 #footer {
 	background-color: rgb(35, 38, 72);
 	color: white;
 	padding-bottom: 1rem;
 }
-
+/*------------------------------  */
 @media (max-width:500px) {
 
 	#about img {
