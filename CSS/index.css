@@ -18,7 +18,13 @@ body {
 	font-family: 'Poppins';
 	font-weight: 300;
 }
+/* About */
+#about{
+	background-color:linear-gradient(98.74deg, rgba(132, 144, 255, 0.2) 2.48%, rgba(98, 198, 252, 0.13) 100.42%);
+	padding-bottom: 1rem;
+}
 
+/* --------------- */
 .navbar-brand {
 	font-weight: bold;
 	font-size: 2rem;
@@ -75,7 +81,7 @@ body {
 	padding: 1px;
 	margin: 1rem;
 	border-radius: 10px;
-	background:linear-gradient(98.74deg, rgba(132, 144, 255, 0.2) 2.48%, rgba(98, 198, 252, 0.13) 100.42%);;
+	background:linear-gradient(98.74deg, rgba(132, 144, 255, 0.2) 2.48%, rgba(98, 198, 252, 0.13) 100.42%);
   }
   
   #education-card-in {
