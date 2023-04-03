@@ -17,7 +17,7 @@ body {
 	color: rgb(40, 40, 40);
 	font-family: 'Poppins';
 	font-weight: 300;
-	cursor:none;
+	cursor: grab ;
 }
 /* About */
 #about{
@@ -162,11 +162,14 @@ body {
 #cursor{
 	height: 30px;
 	width: 30px;
-	background: rgb(132, 144, 255);
+	background: rgba(37, 59, 255, 0.557);
+	box-shadow: 0 4px 8px 0 rgba(106, 0, 255, 0.463), 0 6px 20px 0 rgba(0, 140, 255, 0.358);
 	border-radius: 50%;
 	position: absolute;
 	display: none;
+	transition: 0.2s;
 	z-index: -2;
+	
 
 }
 
