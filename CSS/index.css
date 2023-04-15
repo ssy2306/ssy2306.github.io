@@ -19,6 +19,23 @@ body {
 	font-weight: 300;
 	cursor: grab ;
 }
+
+.typing-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 25vh;
+  }
+  
+  #typing-text {
+	border-right: 0.15em solid #333;
+	padding-right: 0.2em;
+	animation: typing 3s steps(10, end) infinite;
+  }
+  
+  
+  
+
 /* About */
 #about{
 	background:linear-gradient(98.74deg, rgba(105, 119, 250, 0.2) 2.48%, rgba(67, 189, 255, 0.13) 100.42%);
@@ -203,3 +220,31 @@ body {
 		padding: 5%;
 	}
 }
+
+@keyframes typing {
+	from {
+	  width: 0;
+	}
+	to {
+	  width: 100%;
+	}
+  }
+  
+  .cursor {
+	display: inline-block;
+	height: 0.5em;
+	width: 0.06em;
+	margin-left: 0.1em;
+	background-color: #333;
+	animation: blink 1s infinite;
+  }
+  
+  @keyframes blink {
+	from,
+	to {
+	  opacity: 1;
+	}
+	50% {
+	  opacity: 0;
+	}
+  }
