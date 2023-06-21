@@ -14,7 +14,7 @@ h4 {
 
 body {
 	background-color: rgb(227, 229, 241);
-	color: rgb(40, 40, 40);
+	color: rgb(58, 56, 56);
 	font-family: 'Poppins';
 	font-weight: 300;
 	cursor: grab ;
@@ -137,7 +137,42 @@ body {
 	transition: 0.8s;
 
 }
+/* projects */
+.project-cards {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+  }
+  
+  .project-card {
+	width: 425px;
+	background-color: #f1f1f1;
+	padding: 20px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+  }
+  
+  .project-card h3 {
+	font-size: 18px;
+	margin-bottom: 10px;
+	color: rgb(132, 144, 255) ;
+  }
+  
+  .project-card p {
+	margin-bottom: 10px;
+  }
 
+  #projects .project-card {
+	transition: 0.3s;
+	border: 0px;
+}
+
+#projects .project-card:hover {
+	box-shadow: 5px 5px 12px rgb(147, 147, 147);
+
+}
+
+  
 /* cards */
 #services .card {
 	transition: 0.3s;
